@@ -1,0 +1,34 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px #F24405;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #22BABB, #9EF8EE);
+}
+
+h1 {
+    color: #F24405;
+    text-shadow: 1px 1px 2px #FA7F08;
+}
+
+h2 {
+    color: #FA7F08;
+    text-shadow: 1px 1px 2px #fa8108ad;
+    font-style: italic;
+}
+
+p {
+    color: #1c4a4a;
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.youtube.com/channel/UCZVbhI8X74zQwVTUwm85D2A" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://term.ooo/" target="_blank">Termo</a></li>
+    </ul>
+</body>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: darkred;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(1, 80, 1);
+    }
+
+    .especial::after {
+        content: ' ♫';
+    }
+
+    .especial {
+        background-color: rgb(253, 103, 103);
+        
+    }
+
+
+</style>
+</html>

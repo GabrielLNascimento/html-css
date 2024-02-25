@@ -1,21 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Permanent Marker', cursive;
+    --fonte3: 'Great Vibes', cursive;
+}
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
+html, body {
+    font-family: var(--fonte1);
+    background-color: gray;
+    min-height: 100%;
+}
 header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 7vw;
 }
 
 header > p {
     padding-bottom: 50px;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
 }
 
 header a, footer a {
@@ -31,11 +52,14 @@ header a:hover, footer a:hover{
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    
 }
 
 section p {
     margin-left: 20px;
-    ;
+    font-family: var(--fonte2);
+    font-size: 2.5vw;
+    
 }
 
 section.normal {
@@ -56,7 +80,7 @@ section.imagem p {
     background-color: rgba(0, 0, 0, 0.309);
     padding: 10px;
     padding-left: 10px;
-    width: 300px;
+    display: inline-block;
 }
 
 
